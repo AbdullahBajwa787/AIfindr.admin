@@ -1,38 +1,10 @@
-# AIFindr
+# AIFindr Admin Console ⚡
 
-A starter frontend for an AI tools directory. It uses Next.js, TypeScript, Tailwind CSS, and Lucide icons.
+A high-performance administrative command center and Content Management System (CMS) for the [AIFindr](https://github.com/AbdullahBajwa787/AIfindr) directory.
 
-## Open the site now
-
-The local preview runs at **http://localhost:3000** while the development server is running.
-
-## Start it again later (Windows)
-
-1. Open **PowerShell** on your computer.
-2. Copy and paste this line, then press **Enter**:
-
-   ```powershell
-   cd "C:\Users\alian\Documents\Codex\2026-10-03\referenced-chatgpt-conversation-this-is-an\outputs\aifindr"
-   ```
-
-3. Copy and paste this line, then press **Enter**:
-
-   ```powershell
-   npm run dev
-   ```
-
-4. Open **http://localhost:3000** in your web browser.
-5. To stop the local site, click the PowerShell window and press **Ctrl+C**.
-
-## What is included
-
-- Home page, AI tools directory, category browser, individual tool pages, About page, and Suggest a tool page.
-- Search by name, category, description, or tags; filter by category and price.
-- The starter directory contains 149 AI tools across 17 categories. Listings and descriptions are starter content; review each product page before publishing. Pricing is marked “Check pricing” for the new listings because plans can change. Check the other prices as well before launch.
-- Tool links currently point to the product websites. They are not affiliate links, so they do not earn a commission yet.
-- The catalogue is in `lib/tools.ts` and `lib/more-tools.ts`.
-- The Suggest a tool form is a visual demo. It does not send or save submissions.
-
-This version has no database, sign-in, or payments. The tool count and directory entries are starter content; replace them with real entries before launch.
-
-- The ElevenLabs listing uses the referral link supplied by the site owner and shows an affiliate disclosure on its detail page. Referral reporting and commission payouts are handled by ElevenLabs through PartnerStack, not Polar.
+## Features
+- **Visitor Traffic & Analytics:** Real-time visitor counts, daily trends, geographical breakdown, and active user feed.
+- **Full Tool Catalogue Editor:** Edit logos (custom image URLs or auto-favicons), descriptions, categories, pricing, affiliate URLs, and featured picks.
+- **Add / Remove Tools:** Insert brand-new tools or prune defunct tools.
+- **Support & Feedback Desk:** Review user queries and submissions.
+- **Data Export:** Export catalogue as JSON for backups and syncing.
